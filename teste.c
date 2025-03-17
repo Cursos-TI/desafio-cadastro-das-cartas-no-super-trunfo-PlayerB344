@@ -16,13 +16,14 @@ int main() {
 char estado1[1];        //Letra do Estado de "A" a "H"
 char codigo1[3];        //Código do Estado, Ex:A01
 char cidade1[20];    //Nome da Cidade sem espaçamento
-int população1;
+int população1;      //População em numeros inteiros
 float area1;         // Área em km²
 float pib1;          //PIB do estado
 int turismo1;        //Numeros de pontos turísticos
 
 printf("Digite uma letra para seu Estado de 'A' a 'H':\n");
 scanf("%s", &estado1);
+
 printf("Código da carta (Ex:A01, B02, C03,...):\n");
 scanf("%s", &codigo1);
 
