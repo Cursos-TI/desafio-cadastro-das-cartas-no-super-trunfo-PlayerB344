@@ -22,24 +22,24 @@ float pib1;          //PIB do estado
 int turismo1;        //Numeros de pontos turísticos
 
 printf("Digite uma letra para seu Estado de 'A' a 'H':\n");
-scanf("%s", &estado1);
+scanf("%s", estado1);
 printf("Código da carta (Ex:A01, B02, C03,...):\n");
-scanf("%s", &codigo1);
+scanf("%s", codigo1);
 
 printf("Digite o nome da sua cidade (obs: SEM ESPAÇAMENTO:)\n");
-scanf("%s", &cidade1);
+scanf("%s", cidade1);
 
 printf("Qual a população da sua cidade?\n");
-scanf("%d", &população1);
+scanf("%d", população1);
 
 printf("Qual a Área da sua cidade em Km²?\n");
-scanf("%f", &area1);
+scanf("%f", area1);
 
 printf("Digite o valor do PIB:\n");
-scanf("%f", &pib1);
+scanf("%f", pib1);
 
 printf("Digite quantos Pontos Turísticos tem na sua cidade:\n");
-scanf("%d", &turismo1);
+scanf("%d", turismo1);
 
                     // CARTA 2
     
@@ -57,25 +57,25 @@ float pib2;          //PIB do estado
 int turismo2;        //Numeros de pontos turísticos
                    
 printf("Digite uma letra para seu Estado de 'A' a 'H':\n");
-scanf("%s", &estado2);
+scanf("%s", estado2);
                   
 printf("Código da carta (Ex:A01, B02, C03,...):\n");
-scanf("%s", &codigo2);
+scanf("%s", codigo2);
                   
 printf("Digite o nome da sua cidade (obs: SEM ESPAÇAMENTO:)\n");
-scanf("%s", &cidade2);
+scanf("%s", cidade2);
                    
 printf("Qual a população da sua cidade?\n");
-scanf("%d", &população2);
+scanf("%d", população2);
                    
 printf("Qual a Área da sua cidade em Km²?\n");
-scanf("%f", &area2);
+scanf("%f", area2);
                    
 printf("Digite o valor do PIB:\n");
-scanf("%f", &pib2);
+scanf("%f", pib2);
                    
 printf("Digite quantos Pontos Turísticos tem na sua cidade:\n");
-scanf("%d", &turismo2);
+scanf("%d", turismo2);
                    
                    
                    
